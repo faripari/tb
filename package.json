@@ -1,0 +1,39 @@
+{
+  "name": "bad-robot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "badrobot": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "binance-api-node": "^0.9.0",
+    "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "configstore": "^4.0.0",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "figlet": "^1.2.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^6.2.2",
+    "linebyline": "^1.3.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-bash-title": "0.0.2",
+    "node-telegram-bot-api": "^0.30.0",
+    "numeral": "^2.0.6",
+    "ora": "^3.4.0",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "babel-install": "^2.1.0"
+  }
+}
